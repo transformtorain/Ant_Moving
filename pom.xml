@@ -177,6 +177,7 @@
   <build>
   	<finalName>Ant_Moving</finalName>
   	<plugins>
+  	
   		<!-- Run the JUnit unit tests in an isolated classloader -->
   			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -211,5 +212,29 @@
 				</configuration>
 			</plugin>
   	</plugins>
+  	
+  	<resources>
+  		<resource>	
+	       <directory>WebContent/WEB-INF/views</directory>
+	            <includes>
+	                <include>**/**</include>
+	            </includes>
+	            <filtering>true</filtering>
+	    </resource>
+	  	<resource>
+	       <directory>src/main/java</directory>
+	            <includes>
+	                <include>**/**</include>
+	            </includes>
+	            <filtering>true</filtering>
+	    </resource>
+	    <resource>
+	       <directory>src/main/resources</directory>
+	            <includes>
+	                <include>**/**</include>
+	            </includes>
+	            <filtering>true</filtering>
+	    </resource>
+	</resources>
   </build>
 </project>
