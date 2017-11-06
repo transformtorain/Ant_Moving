@@ -193,7 +193,7 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>2.3</version>
 				<configuration>
-					<webXml>WebContent/WEB-INF/web.xml</webXml>
+					<webXml>src/main/webapp/WEB-INF/web.xml</webXml>
 				</configuration>
 			</plugin>
 			
@@ -212,29 +212,5 @@
 				</configuration>
 			</plugin>
   	</plugins>
-  	
-  	<resources>
-  		<resource>	
-	       <directory>WebContent/WEB-INF/views</directory>
-	            <includes>
-	                <include>**/**</include>
-	            </includes>
-	            <filtering>true</filtering>
-	    </resource>
-	  	<resource>
-	       <directory>src/main/java</directory>
-	            <includes>
-	                <include>**/**</include>
-	            </includes>
-	            <filtering>true</filtering>
-	    </resource>
-	    <resource>
-	       <directory>src/main/resources</directory>
-	            <includes>
-	                <include>**/**</include>
-	            </includes>
-	            <filtering>true</filtering>
-	    </resource>
-	</resources>
   </build>
 </project>
