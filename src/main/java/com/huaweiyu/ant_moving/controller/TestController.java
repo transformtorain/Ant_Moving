@@ -28,5 +28,9 @@ public class TestController {
 	public List<Test> getList(){
 		return testService.getAll();
 	}
+	
+	public void update(){
+		System.out.println("第一次修改的内容");
+	}
 
 }
