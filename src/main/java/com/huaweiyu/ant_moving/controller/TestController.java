@@ -28,11 +28,6 @@ public class TestController {
 	public List<Test> getList(){
 		return testService.getAll();
 	}
-	
- 	public String getUserInfo(){
- 		return "xiejianfeng";
- 	}
- 	
  	
  	public String test(){
  		return "第三次提交";
