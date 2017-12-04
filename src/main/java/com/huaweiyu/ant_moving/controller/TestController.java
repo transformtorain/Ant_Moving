@@ -28,13 +28,5 @@ public class TestController {
 	public List<Test> getList(){
 		return testService.getAll();
 	}
-	
-	public void update(){
-		System.out.println("第一次修改的内容，第二次修改的内容");
-	}
-	
-	public void updateTwo(){
-		System.out.println("第二次修改的内容");
-	}
 
 }

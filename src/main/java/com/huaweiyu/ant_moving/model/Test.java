@@ -37,8 +37,4 @@ public class Test implements Serializable{
 		this.age = age;
 	}
 	
-	public String getText(){
-		return "第一次测试";
-	}
-	
 }
