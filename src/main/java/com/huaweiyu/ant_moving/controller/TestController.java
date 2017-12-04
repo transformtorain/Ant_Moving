@@ -32,4 +32,9 @@ public class TestController {
  	public String getUserInfo(){
  		return "xiejianfeng";
  	}
+ 	
+ 	
+ 	public String test(){
+ 		return "第三次提交";
+ 	}
 }
