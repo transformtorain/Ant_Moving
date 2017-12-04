@@ -29,8 +29,7 @@ public class TestController {
 		return testService.getAll();
 	}
 	
-	public void test1(){
-		System.out.println("测试第一次提交");
-	}
- 	
+ 	public String getUserInfo(){
+ 		return "xiejianfeng";
+ 	}
 }
