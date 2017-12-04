@@ -28,5 +28,9 @@ public class TestController {
 	public List<Test> getList(){
 		return testService.getAll();
 	}
+	
+	public void test1(){
+		System.out.println("测试第一次提交");
+	}
  	
 }
