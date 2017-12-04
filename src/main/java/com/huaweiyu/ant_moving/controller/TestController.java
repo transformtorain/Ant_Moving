@@ -30,7 +30,11 @@ public class TestController {
 	}
 	
 	public void update(){
-		System.out.println("第一次修改的内容");
+		System.out.println("第一次修改的内容，第二次修改的内容");
+	}
+	
+	public void updateTwo(){
+		System.out.println("第二次修改的内容");
 	}
 
 }
