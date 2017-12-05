@@ -8,4 +8,6 @@ public interface TestDao {
 	
 	public List<Test> getAll();
 	
+	public void doTest();//第一次测试提交
+	
 }

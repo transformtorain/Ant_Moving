@@ -26,7 +26,12 @@ public class TestController {
 	@RequestMapping("/getList")
 	@ResponseBody
 	public List<Test> getList(){
+		System.out.println("测试 reset的第一次提交");
 		return testService.getAll();
+	}
+	
+	public void test(){
+		System.out.println("测试 reset的第一次提交");
 	}
 
 }
