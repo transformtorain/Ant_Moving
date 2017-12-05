@@ -20,18 +20,18 @@ public class TestController {
 	
 	@RequestMapping("/showView")
 	public String showView(ModelMap modelMap){
+		System.out.println("测试 reset的第二次提交");
 		return "/test";
 	}
 	
 	@RequestMapping("/getList")
 	@ResponseBody
 	public List<Test> getList(){
-		System.out.println("测试 reset的第一次提交");
 		return testService.getAll();
 	}
 	
 	public void test(){
-		System.out.println("测试 reset的第一次提交");
+		System.out.println("测试 reset的第一次提交,测试 reset的第二次提交");
 	}
 
 }
