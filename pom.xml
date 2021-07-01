@@ -176,6 +176,8 @@
   
   <build>
   	<finalName>Ant_Moving</finalName>
+	<sourceDirectory> src/main/java </sourceDirectory>
+	<testSourceDirectory> src/main/test </testSourceDirectory>
   	<plugins>
   	
   		<!-- Run the JUnit unit tests in an isolated classloader -->
